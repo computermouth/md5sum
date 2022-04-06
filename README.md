@@ -27,7 +27,8 @@ int main(){
 		printf("error\n");
 	else
 		printf("%s\n", m.hash);
-
+	
+	return 0;
 }
 
 ```

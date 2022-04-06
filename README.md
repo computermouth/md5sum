@@ -17,10 +17,17 @@
 
 # Examples
 ```c
+#include <stdio.h>
+#include <github.com/computermouth/md5sum>
+
+int main(){
+
 	md5sum.md5res_t m = md5sum.hash("mystring");
 	if (m.error)
 		printf("error\n");
 	else
 		printf("%s\n", m.hash);
+
+}
 
 ```
